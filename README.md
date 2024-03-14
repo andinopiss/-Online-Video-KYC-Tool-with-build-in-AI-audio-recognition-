@@ -53,3 +53,18 @@ kotlin
 ```
 
 You can use this Markdown-formatted content directly in your README.md file in your GitHub repository.
+```
+
+list of libraries used in the provided code:
+
+SpeechRecognition: For speech recognition.
+pyttsx3: For text-to-speech conversion.
+pywhatkit: For web-related tasks like playing YouTube videos.
+datetime: For working with dates and times.
+wikipedia: For accessing Wikipedia articles.
+pyjokes: For generating random jokes.
+tkinter: For creating GUI applications.
+cv2 (OpenCV): For computer vision tasks.
+requests: For making HTTP requests.
+PIL (Python Imaging Library): For image processing.
+json: For JSON data handling.
