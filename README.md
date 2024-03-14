@@ -1,6 +1,5 @@
 # -Online-Video-KYC-Tool-with-build-in-AI-audio-recognition-
  Online Video KYC Tool with build-in AI(audio recognition) where you can give commands oral and get specific results
-### Step-by-Step Setup Commands to Add the Code to Your GitHub Repository
 
 1. **Create a New Repository on GitHub:**
    - Go to [GitHub](https://github.com/) and log in to your account.
@@ -13,46 +12,44 @@
    ```bash
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
-Create a Python Virtual Environment:
+3. **Create a Python Virtual Environment:**
+   ```bash
+   python -m venv venv
 
-bash
-Copy code
-python -m venv venv
-Activate the Virtual Environment:
-
-On Windows:
-bash
-Copy code
-venv\Scripts\activate
+4. **Activate the Virtual Environment:**
+   -On Windows:
+   ```bash
+   venv\Scripts\activate
 On macOS and Linux:
-bash
-Copy code
-source venv/bin/activate
-Install Required Python Packages:
+    ```bash
+         source venv/bin/activate
+         Install Required Python Packages:
+    ```bash
 
-bash
-Copy code
-pip install speechrecognition pyttsx3 pywhatkit wikipedia pyjokes requests opencv-python pillow
-Create a New Python File:
-
+    pip install speechrecognition pyttsx3 pywhatkit wikipedia pyjokes requests opencv-python pillow
+    Create a New Python File:
+ 
 Open your preferred text editor or IDE.
 Copy the provided Python code and paste it into a new file, for example, main.py, in your local repository.
 Replace the Placeholder Paths:
 
-Replace the placeholder directory C:\Users\anand\OneDrive\Documents\kyc registration data with the actual directory where you want to save the KYC data.
+Replace the placeholder directory "add your direcctory" with the actual directory where you want to save the KYC data.
 Test the Application:
 
 Run the Python script to ensure everything works as expected:
-bash
-Copy code
-python main.py
-Commit and Push Changes to GitHub:
 
-bash
-Copy code
+        python main.py
+        Commit and Push Changes to GitHub:
+
+```
 git add main.py
 git commit -m "Add KYC application code"
 git push origin master
+```
 Verify Changes on GitHub:
 
 Refresh your GitHub repository page to see the newly pushed code.
+kotlin
+```
+
+You can use this Markdown-formatted content directly in your README.md file in your GitHub repository.
