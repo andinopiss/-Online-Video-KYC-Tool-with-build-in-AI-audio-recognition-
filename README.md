@@ -1,21 +1,18 @@
 # -Online-Video-KYC-Tool-with-build-in-AI-audio-recognition-
  Online Video KYC Tool with build-in AI(audio recognition) where you can give commands oral and get specific results
+### Step-by-Step Setup Commands to Add the Code to Your GitHub Repository
 
-the step-by-step setup commands to add the provided code to your GitHub repository:
+1. **Create a New Repository on GitHub:**
+   - Go to [GitHub](https://github.com/) and log in to your account.
+   - Click on the "+" icon in the top right corner and select "New repository".
+   - Fill in the repository name and add a description if you want.
+   - Choose if the repository will be public or private.
+   - Click on "Create repository".
 
-Create a New Repository on GitHub:
-
-Go to GitHub and log in to your account.
-Click on the "+" icon in the top right corner and select "New repository".
-Fill in the repository name and add a description if you want.
-Choose if the repository will be public or private.
-Click on "Create repository".
-Clone the Repository to Your Local Machine:
-
-bash
-Copy code
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+2. **Clone the Repository to Your Local Machine:**
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
 Create a Python Virtual Environment:
 
 bash
